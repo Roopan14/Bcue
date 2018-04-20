@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf2f9"
+    >
+
+    <include layout="@layout/toolbar" android:id="@+id/viewtoolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ListView
+        android:layout_below="@id/viewtoolbar"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dee3e8"
+        android:scrollbars="none"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/noevtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No Events :("
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        />
+
+
+</RelativeLayout>

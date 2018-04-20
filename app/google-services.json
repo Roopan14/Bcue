@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "754351494589",
+    "firebase_url": "https://b-cue-658ce.firebaseio.com",
+    "project_id": "b-cue-658ce",
+    "storage_bucket": "b-cue-658ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754351494589:android:4c8b905b3929a9ff",
+        "android_client_info": {
+          "package_name": "com.example.roopanc.b_cue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754351494589-39u70155upsle3bjg5m8tnn64shrs6v2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roopanc.b_cue",
+            "certificate_hash": "80060af51e593104483e70de55a3a94b59d9451a"
+          }
+        },
+        {
+          "client_id": "754351494589-f9r7tu23r2eeqgm12s1e7rq155mlncbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roopanc.b_cue",
+            "certificate_hash": "666f0fce0bbfd325f61545de19a1103ea046ac46"
+          }
+        },
+        {
+          "client_id": "754351494589-dlpil6vtn92s7r4vp8a82f2suorn9iaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ5KpPHWXASKyKuXEqv2Q40L_cM2k6CBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754351494589-dlpil6vtn92s7r4vp8a82f2suorn9iaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

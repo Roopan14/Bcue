@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_main"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/blue" >
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="B-cue"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        />
+</android.support.v7.widget.Toolbar>
